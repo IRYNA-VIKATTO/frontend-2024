@@ -1,3 +1,28 @@
-a {
+.lesson-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    padding: 0px 30px;
+  }
+  
+  h1 {
+    color: coral;
+  }
+  
+  a {
+    text-decoration: none;
     color: black;
-}
+  }
+  
+  /* стили с псевдоклассом hover применятся к элементу при наведении на него мышкой */
+  a:hover {
+    text-decoration: underline;
+    color: coral;
+  }
+
+  .homework-link:hover {
+    text-decoration: underline;
+    color: forestgreen;
+  }
