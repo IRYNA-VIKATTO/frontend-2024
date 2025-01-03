@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 100px;
+    height: 100vh; /* Высота на весь экран */
+    background-size: cover; /* Растягиваем изображение по экрану */
+    background-position: center; /* Центрируем изображение */
+    background-repeat: no-repeat; /* Не повторяем изображение */
+    transition: background-image 0.5s ease-in-out; /* Плавный переход при изменении фона */
+}
+
+#weatherImage {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+/* Красный цвет через HEX */
+h1 {
+    color: #FF0000; /* Ярко-красный */
+}
+
+/* Красный цвет через RGB */
+p {
+    color: rgb(255, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+}
+.center-container {
+    display: flex;                  /* Включаем flex-контейнер */
+    justify-content: center;        /* Центрируем по горизонтали */
+    align-items: center;            /* Центрируем по вертикали */
+    height: 100vh;                  /* Задаём высоту на весь экран */
+}
+.container-p{
+    max-width: 200px;
+    display: block;
+}
